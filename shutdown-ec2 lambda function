@@ -1,4 +1,5 @@
 #https://gist.githubusercontent.com/ad-saxena/5ab87bffa1a1ae79561b7688ead4fb36/raw/3620adad3dc999e00d1ce2511d1935a36e82eddb/auto-shutdown.py
+#https://medium.com/@amandeepsaxena/how-to-implement-aws-ec2-auto-shutdown-for-cost-optimisation-54a425741ecf
 import boto3
 
 def lambda_handler(event, context):
