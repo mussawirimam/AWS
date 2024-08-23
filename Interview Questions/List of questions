@@ -1,1 +1,32 @@
 what is drift in cloudformation?
+
+What is cloudwatch and what it is used for?
+CloudWatch:
+Cloudwatch is a monitoring service in aws and it monitors services and application.
+Collect logs to monitor and analyze application health 
+
+
+Collect application logs, service logs for mentainance and errors
+You can create alarms on the metrics you trigger an email or text on your aphone. Using SNS SQS topics or Event bridge.
+
+You can get the traces cpu usages, disk usages, memory usages and take a deep dive 
+
+Analyze you can use the insights to use the clouds watch as the sql style query to get the 
+
+You can use the event bridge for app events 
+Rules for cron jobs in the cloudwatch
+
+With the cloudwatch you can use the services like SNS, SQS, Eventbridge for 
+
+
+CloudTrail:
+Auditing service for aws account
+Analyze who performed what actions and when on your resources
+
+It gives you Eventname event time resources to give you like a hawk eye on what the users are doing or when they are doing or what they are doing to. 
+
+There are like 3 types of events: management, data, and insights 
+Like creation of the resources or modification also like sign on 
+
+Cloudformation:
+Ive used cloudwatch formation for the formation of aws cloud services and resources using the structured templates using yaml and have 
