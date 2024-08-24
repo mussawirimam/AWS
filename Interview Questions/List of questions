@@ -1,4 +1,5 @@
 what is drift in cloudformation?
+https://mng.workshop.aws/cloudformation/driftdetect.html#:~:text=Drift%20is%20the%20difference%20between,in%20the%20corresponding%20CloudFormation%20stacks.
 
 What is cloudwatch and what it is used for?
 CloudWatch:
