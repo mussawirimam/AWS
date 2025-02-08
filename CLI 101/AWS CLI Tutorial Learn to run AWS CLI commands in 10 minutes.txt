@@ -1,0 +1,19 @@
+The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.
+For more information please visit https://aka.ms/wslinstall
+
+Press any key to install Windows Subsystem for Linux.
+Press CTRL-C or close this window to cancel.
+This prompt will time out in 60 seconds.
+
+### how to connect your 
+https://www.youtube.com/watch?v=21-t7Rkokmo&ab_channel=AWSMadeEasy
+
+### aws cli lets you interact with the services through the command-line shell. 
+e.g you can enable the ec2 server, create the s3 buecket, list the buckets etc
+
+### aws command line reference
+https://docs.aws.amazon.com/cli/latest/reference/
+# if you see on the references, it will give you available services and you can use those.
+on the reference page 
+1. click on s3 > scroll down to available options > select ls 
+run the command: aws s3 ls
