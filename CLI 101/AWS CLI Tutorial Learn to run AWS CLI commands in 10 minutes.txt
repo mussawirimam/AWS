@@ -1,3 +1,6 @@
+wsl question:
+how to remove the access for wsl to get folder access
+### Environment: WSL
 The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.
 For more information please visit https://aka.ms/wslinstall
 
