@@ -6,3 +6,24 @@ json{
     "Account": "123456789012",
     "Arn": "arn:aws:iam::123456789012:user/your-username"
 }
+
+
+aws configure 
+  is the command to set up your AWS CLI credentials and settings.
+Running it prompts you for 4 values:
+AWS Access Key ID [None]: AKIAXXXXXXXXXXXXXXXXX
+AWS Secret Access Key [None]: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Default region name [None]: us-east-1
+Default output format [None]: json
+What each field means:
+Access Key ID — Your IAM access key (starts with AKIA)
+Secret Access Key — Your secret key (only shown once when created in IAM console)
+Default region — e.g. us-east-1, us-west-2, eu-west-1
+Default output format — json, text, or table
+Other useful configure commands:
+bash
+aws configure list                        # Show current config
+aws configure list-profiles               # List all profiles
+aws configure --profile myprofile         # Set up a named profile
+aws configure get region                  # Get a specific value
+aws configure set region us-west-2        # Set a specific value
