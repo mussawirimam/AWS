@@ -1,0 +1,8 @@
+aws sts get-caller-identity
+  returns information about the IAM identity currently making the request.
+Example output:
+json{
+    "UserId": "AIDAXXXXXXXXXXXXXXXXX",
+    "Account": "123456789012",
+    "Arn": "arn:aws:iam::123456789012:user/your-username"
+}
